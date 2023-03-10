@@ -387,7 +387,7 @@ li {
 }
 
 
-#wp {
+#wp{
     position: fixed;
     bottom: 90px;
     color: white;
@@ -462,7 +462,7 @@ li {
     border: 5px solid #0b1f71;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 768px)
+@media only screen and (min-width: 100px) and (max-width: 768px)
 {
    .Htop{
     object-fit: contain;
@@ -478,6 +478,7 @@ li {
     }
     .CRG{
         margin: 5px 50px;
+        margin-left: 10%;
     }
     .respo{
         display: grid;
@@ -489,8 +490,9 @@ li {
     #nav{
         height: 4vh;
         font-size: small;
-        width: 50vw;
+        width: 62vw;
         margin-bottom: 2px;
+        margin-left: -25%;
     }
     #SSIF{
         display: none;
@@ -502,4 +504,63 @@ li {
         font-size: 5px;
 
     }
+    .OCSG{
+        margin: -8% auto !important;
+    }
+    .OCSG4{
+        display: block !important;
+        margin: auto !important;
+    }
+    .OCSGF{
+        margin: 2% auto !important;
+        width: 65% !important;
+    }
+    .OCSGimg{
+        width: 100% !important;
+    }
+    .news-message {
+        overflow: hidden;
+        width: 210px;
+        margin-left: -45px;
+        font-size: 8px;
+    }
+    .itsme{
+        margin: 2% auto;
+    }
+    .iNG{
+        display: block;
+        text-align: center;
+    }
+    #wp{
+        right: 35%;
+    }
+}
+
+.OCSGimg{
+    width: 20vw;
+    object-fit: cover;
+}
+.OCSGF{
+    padding: 0 0 2% 0;
+    width: 19.999999vw;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0px 2px 3px grey; 
+    background-color: #fff; 
+}
+.OCSGF:hover{
+    cursor: pointer;
+    box-shadow: 2px 3px 6px grey
+}
+.OCSG{
+    padding: 3%;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
+.OCSG4{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.OCSGBTN{
+    margin: 2% 0;
 }
