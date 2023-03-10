@@ -532,7 +532,13 @@ li {
         text-align: center;
     }
     #wp{
-        right: 35%;
+        right: 45%;
+    }
+    *img{
+        width: 20vw !important;
+    }
+    .stdwork{
+        margin: -3vmin !important;
     }
 }
 
