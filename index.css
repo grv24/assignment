@@ -1,0 +1,505 @@
+.Htop {
+    background: linear-gradient(90deg, #812868 0%, #f954a4 100%);
+    color: #fff;
+    padding-top:1.2%;
+    overflow:hidden;
+}
+
+.text {
+    font-size: medium;
+    text-align: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+.mygrid {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    text-align: center;
+    align-items: center;
+}
+
+#logo {
+    width: 7rem;
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+.news-message {
+    overflow: hidden;
+}
+
+#NifaUp {
+    width: 10rem;
+    font-weight: 700;
+}
+
+#Stext {
+    width: 44rem;
+    display: inline-block;
+    font-size: 16px;
+    color: #b11e6f;
+    line-height: 23px;
+    font-weight: bold;
+    text-align: justify;
+    /* animation properties */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+
+    -moz-animation: my-animation 15s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 15s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+    from {
+        -moz-transform: translateX(100%);
+    }
+
+    to {
+        -moz-transform: translateX(-100%);
+    }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+    from {
+        -webkit-transform: translateX(100%);
+    }
+
+    to {
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@keyframes my-animation {
+    from {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+
+    to {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+.Textc {
+    text-align: center;
+    padding: 2%;
+}
+
+.myC {
+    margin: 5% auto;
+}
+
+.myB {
+    background: linear-gradient(90deg, rgba(177, 30, 111, 1) 0%, rgba(74, 14, 192, 1) 100%) !important;
+    border: 2px solid #fff !important;
+    margin-top: 1rem;
+    font-size: 15px !important;
+    padding: 10px 20px !important;
+    border-radius: 30px !important;
+    color: #fff !important;
+}
+
+.myb1 {
+    text-align: center;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(177, 30, 111, 1) 0%, rgba(74, 14, 192, 1) 100%) !important;
+    border: 0;
+    transition: 0.2s;
+    color: #fff;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 2rem;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 10%);
+}
+
+.SSC {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background: linear-gradient(100deg, rgba(0, 0, 0, 1), rgba(35, 31, 32, 0.6)), url(https://www.nifafinearts.com/images/appbg.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 90px 15px;
+    color: #fff;
+}
+
+.myG {
+    display: flexbox;
+
+}
+
+.THS {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    padding: 50px 0;
+    background: url(https://www.nifafinearts.com/images/artboard2.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.FC {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#FC {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#BC {
+    margin: 2px auto;
+}
+
+.card:hover .card-img-top {
+    cursor: pointer;
+    transform: scale(0.90) rotate(1deg);
+}
+
+
+#gallery-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#gallery-container #head {
+    width: auto;
+    display: inline-block;
+    margin: 10px auto;
+    margin-bottom: 30px;
+}
+
+#head {
+    margin-bottom: 5rem !important;
+}
+
+.stdwork {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2vmin;
+}
+
+.stdwork li {
+    height: 40vh;
+    flex-grow: 1;
+    margin: 1vmin;
+    list-style: none;
+}
+
+.stdwork img {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+    border-radius: 1vmin;
+}
+
+#student-container {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    background: url('https://www.nifafinearts.com/images/student-talk.jpg') no-repeat center;
+    background-size: cover;
+    padding: 70px 0;
+    background-attachment: fixed;
+}
+
+#student-container h2 {
+    color: #fff !important;
+}
+
+/* .row {
+    margin-right: -15px;
+    margin-left: -15px;
+
+} */
+
+#student-container .container {
+    width: auto;
+    display: block;
+    text-align: center;
+    height: auto;
+}
+
+.frame {
+    border: 5px solid #fff;
+    margin: 4%;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nfotcont {
+    overflow: hidden;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+    color: #000;
+    background: url('https://www.nifafinearts.com/images/fotbg2.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#footer-container2 {
+    width: 100%;
+    float: left;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.nfotcont li {
+    background: transparent;
+    border: none;
+    padding: 3px 0;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.nfothed {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.nappimg img {
+    width: 150px;
+}
+
+#course-program-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    padding: 50px 0;
+}
+
+.col-md-3 {
+    width: 25%;
+}
+
+.pac-col4 div {
+    color: #000;
+    padding: 20px 10px;
+    text-decoration: none;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.pac-col4 {
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.pac-col4 img {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.img-responsive,
+.thumbnail a>img,
+.thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.onclassec {
+    display: flex;
+    align-items: center;
+}
+
+#SSIF {
+    margin-bottom: 10%;
+    margin-left: 10%;
+    border: 10px solid #fff;
+}
+
+.mail {
+    /* display: block; */
+    text-align: center;
+}
+
+.mail>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.eaddress {
+    position: absolute;
+    /* top: 9px; */
+    right: 25%;
+}
+
+
+#wp {
+    position: fixed;
+    bottom: 90px;
+    color: white;
+    right: 50px;
+    opacity: 10;
+    background-color: rgb(40, 175, 40);
+    border: 10px solid rgb(40, 175, 40);
+    border-radius: 28px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 70%);
+}
+
+/*header top*/
+
+.mygd{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.dd{
+   position: relative;
+  display: inline-block;
+}
+.op{
+    display: none;
+  position: relative;
+  background-color: #7e234f;
+  margin-top:10px ;
+}
+.op>a{
+    color: #fff;
+}
+
+
+
+@media only screen and (min-width: 375px) and (max-width: 768px)
+{
+    .mygd{
+        display: block;
+        text-align: center;
+        
+    }
+}
+
+
+/*Nav*/
+.myNavGrid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.navop{
+    padding: 20px 0;
+}
+.navop>a:hover{
+    color: #7e234f;
+    border-bottom: 1px solid #f954a4;
+    border-top: 1px solid #f954a4;
+}
+.NGd{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+}
+.contactR{
+    color: #0b1f71;
+    display: none;
+}
+.selectNav{
+    display: none;
+}
+.selectNav >#nav{
+    background-color: #0b1f71;
+    color: #fff;
+    border: 5px solid #0b1f71;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 768px)
+{
+   .Htop{
+    object-fit: contain;
+   }
+    .selectNav{
+        display: block;
+    }
+    .contactR{
+        display: block;
+    }
+    .NGd{
+        display: none;
+    }
+    .CRG{
+        margin: 5px 50px;
+    }
+    .respo{
+        display: grid;
+        grid-template-rows: auto auto;
+    }
+    #logo{
+        margin: 20px 0;
+    }
+    #nav{
+        height: 4vh;
+        font-size: small;
+        width: 50vw;
+        margin-bottom: 2px;
+    }
+    #SSIF{
+        display: none;
+    }
+    .myCources{
+        font-size: 5px;
+    }
+    .pacbt{
+        font-size: 5px;
+
+    }
+}
