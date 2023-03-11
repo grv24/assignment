@@ -400,26 +400,168 @@ li {
 }
 
 /*header top*/
-
+ 
 .mygd{
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
 
-.dd{
-   position: relative;
-  display: inline-block;
+.BM{
+    width: 100%;
 }
-.op{
+#BMnav {
+    display: flex;
+    height: 40px;
+    margin: 0;
+    margin-top: 18px;
+    padding-left: 4%;
+}
+#BMnav > li > a{
+   color: #000;
+   width: 2px;
+}
+#BMnav >li>a:hover{
+    cursor: pointer;
+    color: #b11e6f;
+    padding: 10px 0;
+    border-bottom: 1px solid #b11e6f;
+    border-top: 1px solid #b11e6f;
+}
+.BMOPDD{
+    position: relative;
+    display: inline-block;
+}
+.BMOPDDC{
     display: none;
-  position: relative;
-  background-color: #7e234f;
-  margin-top:10px ;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+    margin: 23% 0 0 -60%;
+    border: 1px solid lightgray;
+    box-shadow: none;
 }
-.op>a{
+.BMOPDDC >li> a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    pointer-events: auto;
+}
+.BMOPDDC>li>a:hover{
     color: #fff;
 }
+ .BMOPDDC:hover{
+    background-color: #b11e6f;
+    color: #fff;
+}
+.BMOPDD:hover .BMOPDDC{
+    display: block !important;
+}
+/* .button-menu {
+    display: block;
+    width: auto;
+    height: auto;
+}
+#nav {
+    font-size: 14px;
+    height: 36px;
+    width: auto;
+    text-align: left;
+}
 
+
+#nav li {
+    display: flex;
+    float: left;
+    height: auto;
+    position: relative;
+    width: auto;
+}
+#top-container #menu a {
+    color: inherit;
+    font-size: inherit;
+    -webkit-transition: all 0.25s linear 0.05s;
+    -moz-transition: all 0.25s linear 0.05s;
+    -o-transition: all 0.25s linear 0.05s;
+    -ms-transition: all 0.25s linear 0.05s;
+    transition: all 0.25s linear 0.05s;
+}
+#nav li a {
+    border: 1px solid;
+    border-color: transparent;
+    border-right: 0;
+    border-left: 0;
+    padding: 0px 7px;
+    text-align: center;
+    position: relative;
+    margin-left: 5px;
+    z-index: 999;
+    display: block;
+    line-height: 34px;
+    outline: medium none;
+    text-align: justify;
+    text-decoration: none;
+}
+#nav li ul li {
+    display: block;
+}
+
+#nav ul li {
+    background: #ededed;
+    width: 100%;
+}
+#top-container #menu a {
+    color: inherit;
+    font-size: inherit;
+    -webkit-transition: all 0.25s linear 0.05s;
+    -moz-transition: all 0.25s linear 0.05s;
+    -o-transition: all 0.25s linear 0.05s;
+    -ms-transition: all 0.25s linear 0.05s;
+    transition: all 0.25s linear 0.05s;
+}
+#nav >li >ul >li >a {
+    border-bottom: 1px solid #ddd;
+    border-right: 0;
+    border-left: 0;
+    position: relative;
+    z-index: 999;
+    margin: 0px;
+    color: #FFFFFF;
+    display: block;
+    line-height: normal;
+    outline: medium none;
+    text-align: left;
+    text-decoration: none;
+    font-size: 13px !important;
+    padding: 7px 15px;
+} */
+/*
+.opl{
+    left: 0px;
+    position: absolute;
+    top: -9999px;
+    z-index: 999;
+}
+.op{
+    background: #ededed;
+    width: 100%;
+}
+.op>a{
+    border-bottom: 1px solid #ddd;
+    border-right: 0;
+    border-left: 0;
+    position: relative;
+    z-index: 999;
+    margin: 0px;
+    color: #FFFFFF;
+    display: block;
+    line-height: normal;
+    outline: medium none;
+    text-align: left;
+    text-decoration: none;
+    font-size: 13px !important;
+    padding: 7px 15px;
+} */
 
 
 @media only screen and (min-width: 375px) and (max-width: 768px)
@@ -440,8 +582,8 @@ li {
 .navop{
     padding: 20px 0;
 }
-.navop>a:hover{
-    color: #7e234f;
+.navop>a:hover ,.dd>a:hover{
+    color: #000000;
     border-bottom: 1px solid #f954a4;
     border-top: 1px solid #f954a4;
 }
@@ -471,9 +613,14 @@ li {
         display: block;
     }
     .contactR{
+        margin-top: 6%;
         display: block;
     }
-    .NGd{
+    .myNavGrid{
+        display: flex
+        ;
+    }
+    #BMnav{
         display: none;
     }
     .CRG{
@@ -491,8 +638,8 @@ li {
         height: 4vh;
         font-size: small;
         width: 62vw;
-        margin-bottom: 2px;
-        margin-left: -25%;
+        margin-top: 10%;
+        margin-left: -20%;
     }
     #SSIF{
         display: none;
@@ -540,6 +687,9 @@ li {
     .stdwork{
         margin: -3vmin !important;
     }
+    .itsme{
+        display: block !important;
+    }
 }
 
 .OCSGimg{
@@ -569,4 +719,8 @@ li {
 }
 .OCSGBTN{
     margin: 2% 0;
+}
+.itsme{
+    display: grid;
+    grid-template-columns: auto auto;
 }
