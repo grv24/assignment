@@ -1,8 +1,16 @@
+body{
+    max-width: 100% !important;
+    margin: 0 !important;
+    contain: content !important;
+}
 .Htop {
     background: linear-gradient(90deg, #812868 0%, #f954a4 100%);
     color: #fff;
     padding-top:1.2%;
     overflow:hidden;
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 18px;
 }
 
 .text {
@@ -242,11 +250,7 @@ li {
     color: #fff !important;
 }
 
-/* .row {
-    margin-right: -15px;
-    margin-left: -15px;
 
-} */
 
 #student-container .container {
     width: auto;
@@ -260,12 +264,18 @@ li {
     margin: 4%;
 }
 
+
+
+/*Footer~~CSS*/
+
 .container-fluid {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
+
+
 
 .nfotcont {
     overflow: hidden;
@@ -388,6 +398,7 @@ li {
 
 
 #wp{
+    overflow: hidden;
     position: fixed;
     bottom: 90px;
     color: white;
@@ -395,7 +406,7 @@ li {
     opacity: 10;
     background-color: rgb(40, 175, 40);
     border: 10px solid rgb(40, 175, 40);
-    border-radius: 28px;
+    border-radius: 36px;
     box-shadow: 0px 0px 10px rgb(0 0 0 / 70%);
 }
 
@@ -458,14 +469,7 @@ li {
     display: block !important;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 768px)
-{
-    .mygd{
-        display: block;
-        text-align: center;
-        
-    }
-}
+
 
 
 /*Nav*/
@@ -498,93 +502,6 @@ li {
     border: 5px solid #0b1f71;
 }
 
-@media only screen and (min-width: 100px) and (max-width: 768px)
-{
-   .Htop{
-    object-fit: contain;
-   }
-    .selectNav{
-        display: block;
-    }
-    .contactR{
-        margin-top: 6%;
-        display: block;
-    }
-    .myNavGrid{
-        display: flex
-        ;
-    }
-    #BMnav{
-        display: none;
-    }
-    .CRG{
-        margin: 5px 50px;
-        margin-left: 10%;
-    }
-    .respo{
-        display: grid;
-        grid-template-rows: auto auto;
-    }
-    #logo{
-        margin: 20px 0;
-    }
-    #nav{
-        height: 4vh;
-        font-size: small;
-        width: 62vw;
-        margin-top: 10%;
-        margin-left: -20%;
-    }
-    #SSIF{
-        display: none;
-    }
-    .myCources{
-        font-size: 5px;
-    }
-    .pacbt{
-        font-size: 5px;
-
-    }
-    .OCSG{
-        margin: -8% auto !important;
-    }
-    .OCSG4{
-        display: block !important;
-        margin: auto !important;
-    }
-    .OCSGF{
-        margin: 2% auto !important;
-        width: 65% !important;
-    }
-    .OCSGimg{
-        width: 100% !important;
-    }
-    .news-message {
-        overflow: hidden;
-        width: 210px;
-        margin-left: -45px;
-        font-size: 8px;
-    }
-    .itsme{
-        margin: 2% auto;
-    }
-    .iNG{
-        display: block;
-        text-align: center;
-    }
-    #wp{
-        right: 45%;
-    }
-    *img{
-        width: 20vw !important;
-    }
-    .stdwork{
-        margin: -3vmin !important;
-    }
-    .itsme{
-        display: block !important;
-    }
-}
 
 .OCSGimg{
     width: 20vw;
@@ -641,3 +558,5 @@ li {
     padding: 3px 0 !important;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
 }
+
+
