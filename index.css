@@ -398,7 +398,6 @@ li {
 
 
 #wp{
-    overflow: hidden;
     position: fixed;
     bottom: 3%;
     color: white;
