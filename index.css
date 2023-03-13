@@ -421,6 +421,7 @@ li {
     width: 100%;
 }
 #BMnav {
+    font-size: 15px;
     display: flex;
     height: 40px;
     margin: 0;
